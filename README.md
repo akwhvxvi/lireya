@@ -1,0 +1,2 @@
+# lireya
+Cultura informaționala 
