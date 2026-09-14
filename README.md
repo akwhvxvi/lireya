@@ -1,2 +1,85 @@
-# lireya
-Cultura informaționala 
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cultura Informațională și Artistul Digital</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', sans-serif; line-height: 1.7; color: #333; }
+    nav {
+      background: #1a1a2e; padding: 1rem 2rem;
+      display: flex; gap: 2rem; justify-content: center;
+      position: sticky; top: 0;
+    }
+    nav a { color: #e94560; text-decoration: none; font-weight: bold; }
+    nav a:hover { color: #fff; }
+    header {
+      background: linear-gradient(135deg, #1a1a2e, #16213e);
+      color: #fff; text-align: center; padding: 5rem 2rem;
+    }
+    header h1 { font-size: 2.5rem; margin-bottom: 1rem; }
+    section { max-width: 900px; margin: 0 auto; padding: 3rem 2rem; }
+    section:nth-child(odd) { background: #f5f5f5; }
+    h2 { color: #e94560; margin-bottom: 1.5rem; border-left: 5px solid #e94560; padding-left: 1rem; }
+    ul { margin: 1rem 0 1rem 2rem; }
+    li { margin-bottom: 0.5rem; }
+    footer { background: #1a1a2e; color: #aaa; text-align: center; padding: 2rem; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#acasa">Acasă</a>
+    <a href="#cultura">Cultura Informațională</a>
+    <a href="#artist">Rolul Artistului</a>
+    <a href="#animatie">Animație</a>
+  </nav>
+
+  <header id="acasa">
+    <h1>Cultura Informațională, Tehnologia și Artistul Digital</h1>
+    <p>Un proiect educațional despre creativitate în era digitală</p>
+  </header>
+
+  <section id="cultura">
+    <h2>1. Cultura Informațională și Tehnologia</h2>
+    <p>Cultura informațională reprezintă capacitatea de a recunoaște când
+       avem nevoie de informație, de a o localiza, evalua critic și folosi
+       în mod etic și eficient.</p>
+    <ul>
+      <li><strong>Alfabetizare digitală</strong> – utilizarea competentă a tehnologiei</li>
+      <li><strong>Gândire critică</strong> – evaluarea surselor de informație</li>
+      <li><strong>Etica informației</strong> – drepturi de autor, utilizare responsabilă a AI</li>
+      <li><strong>Adaptabilitate</strong> – învățare continuă</li>
+    </ul>
+  </section>
+
+  <section id="artist">
+    <h2>2. Rolul Artistului în Era Digitală</h2>
+    <p>Artistul contemporan este mai mult decât un creator – este un
+       curator de informație, un colaborator al tehnologiei și un agent etic.</p>
+    <ul>
+      <li>Curator de informație – transformă fluxul digital în operă de artă</li>
+      <li>Colaborator cu tehnologia – AI-ul și software-ul ca extensii ale creativității</li>
+      <li>Agent etic – folosește responsabil instrumentele digitale</li>
+      <li>Educator cultural – influențează percepția realității digitale</li>
+    </ul>
+  </section>
+
+  <section id="animatie">
+    <h2>3. Tehnologia în Serviciul Animației</h2>
+    <p>Cultura informațională îl ajută pe animatorul să învețe mai repede,
+       să găsească resurse de calitate și să colaboreze global.</p>
+    <ul>
+      <li><strong>Învățare</strong> – tutoriale, cursuri online, documentație</li>
+      <li><strong>Instrumente</strong> – Blender, Toon Boom, After Effects</li>
+      <li><strong>Comunități</strong> – ArtStation, Behance, Discord</li>
+      <li><strong>AI ca asistent</strong> – concepte, in-betweening, rotoscoping</li>
+      <li><strong>Iterație rapidă</strong> – fluxuri de lucru digitale eficiente</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 – Proiect educațional despre cultura informațională și animație</p>
+  </footer>
+</body>
+</html>
